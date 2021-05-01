@@ -1,0 +1,6 @@
+{
+    "name": "Node - Express Application - Production",
+    "mail": {
+        "server": "prod.mail.server"
+    }
+}

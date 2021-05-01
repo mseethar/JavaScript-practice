@@ -1,0 +1,31 @@
+{
+  "name": "npm-demo",
+  "version": "1.0.0",
+  "description": "Sample NPM practice package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mseethar/JavaScript-practice.git"
+  },
+  "keywords": [
+    "NPM",
+    "learning",
+    "practice"
+  ],
+  "author": "Madhusuthanan Seetharam (mseethar@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mseethar/JavaScript-practice/issues"
+  },
+  "homepage": "https://github.com/mseethar/JavaScript-practice#readme",
+  "dependencies": {
+    "mongoose": "^5.12.7",
+    "underscore": "^1.13.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.12.0"
+  }
+}
