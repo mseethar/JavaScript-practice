@@ -1,0 +1,6 @@
+{
+    "name": "Node - Express Application - Development",
+    "mail": {
+        "server": "dev.mail.server"
+    }
+}
