@@ -9,11 +9,27 @@
 2. Morgan
 3. config
 4. debug
+# Secure headers
+> Module: helmet
 
-Note:
+# Request logging
+> Module: morgan
 
-Setting environment variable in Powershell
+# Configuration
+> Module: config
 
-    $ $Env:DEBUG = "index,db"
+# Debugging
+> Module: debug
+
+Setting environment variable
+
+    > $Env:DEBUG = "app:startup,db"    // Windows PowerShell syntax.
+    $ export DEBUG=app:startup,db
+    $ export DEBUG=app:*,db            // Wildcard matching for debug namespace.
     $ $Env:app_password = "*****"
     $ $Env:NODE_ENV = "production"
+
+# Templating engines
+> Modules: PUG, Mustache and EJS
+
+npm i pug
