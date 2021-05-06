@@ -33,3 +33,6 @@ Setting environment variable
 > Modules: PUG, Mustache and EJS
 
 npm i pug
+
+Windows Powershell
+    > $Env:PATH += ";C:\Users\mseet\mount\mongodb-win32-x86_64-windows-4.4.5\bin"

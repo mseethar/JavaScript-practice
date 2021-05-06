@@ -1,10 +1,13 @@
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/vidly');
+
 const express = require('express');  // This is a function
 const app = express();
-
-const genres = ['Drama', 'Horror', 'Thriller']
-app.get('/api/genres', (req, res) => {  // Routing handler
-    res.send({ items: genres, size: genres.length });
-});
+app.use(express.json());
+const genres = require('./routes/genres');
+app.use('/api/genres', genres);
+const customers = require('./routes/customers');
+app.use('/api/customers', customers);
 
 const port = process.env.PORT || 5500;
 app.listen(port, () => {
